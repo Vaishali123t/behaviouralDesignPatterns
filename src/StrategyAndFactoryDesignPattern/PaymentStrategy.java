@@ -1,0 +1,7 @@
+package StrategyAndFactoryDesignPattern;
+
+public interface PaymentStrategy {
+
+    void processPayment(double amount);
+
+}
